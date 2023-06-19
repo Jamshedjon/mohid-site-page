@@ -1,67 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mohid</title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <!-- <link rel="stylesheet" href="./css/style.mini.css"> -->
-</head>
-<body>
-    <header class="header">
-        <a href="#" class="header-logo__link">
-            <img src="" alt="" class="header-logo">
-            <p class="header-logo__text"></p>
-        </a>
-        <ul class="site-nav__list">
+  </head>
+  <body>
+    <div class="hero">
+      <header class="header">
+        <div class="container header__wrapper">
+          <a href="#" class="header-logo__link">
+            <img
+              src="./images/svg/header-logo.svg"
+              alt=""
+              class="header-logo"
+            />
+            <p class="header-logo__text">Mohid</p>
+          </a>
+          <ul class="site-nav__list">
             <li class="site-nav__item">
-                <a href="#" class="site-nav__link">Home</a>
+              <a href="#" class="site-nav__link">Home</a>
+              <img
+                src="./images/svg/header-list-path-icon.svg"
+                alt=""
+                class="click-path-icon"
+              />
             </li>
             <li class="site-nav__item">
-                <a href="#" class="site-nav__link">Brands</a>
+              <a href="#" class="site-nav__link">Brands</a>
+              <img
+                src="./images/svg/header-list-path-icon.svg"
+                alt=""
+                class="click-path-icon"
+              />
             </li>
             <li class="site-nav__item">
-                <a href="#" class="site-nav__link">Recent Products</a>
+              <a href="#" class="site-nav__link">Recent Products</a>
+              <img
+                src="./images/svg/header-list-path-icon.svg"
+                alt=""
+                class="click-path-icon"
+              />
             </li>
             <li class="site-nav__item">
-                <a href="#" class="site-nav__link">Contact</a>
+              <a href="#" class="site-nav__link">Contact</a>
+              <img
+                src="./images/svg/header-list-path-icon.svg"
+                alt=""
+                class="click-path-icon"
+              />
             </li>
             <li class="site-nav__item">
-                <a href="#" class="site-nav__link">About</a>
+              <a href="#" class="site-nav__link">About</a>
+              <img
+                src="./images/svg/header-list-path-icon.svg"
+                alt=""
+                class="click-path-icon"
+              />
             </li>
-        </ul>
-        <div class="header__options">
+          </ul>
+          <div class="header__options">
             <a href="" class="header__options-link">
-                <img src="./images/svg/header-search-icon.svg" alt="" class="header__options-icon" width="22" height="23">
+              <img
+                src="./images/svg/header-search-icon.svg"
+                alt=""
+                class="header__options-icon"
+                width="22"
+                height="23"
+              />
             </a>
             <a href="" class="header__options-link">
-                <img src="./images/svg/header-person-icon.svg" alt="" class="header__options-icon" width="22" height="23">
+              <img
+                src="./images/svg/header-person-icon.svg"
+                alt=""
+                class="header__options-icon"
+                width="22"
+                height="23"
+              />
             </a>
-            <a href="" class="header__options-link">
-                <img src="./images/svg/header-shopping-cart-icon.svg" alt="" class="header__options-shopping-cart-icon" width="22" height="23">
+            <a href="" class="header__options-link-shopping-cart-icon">
+              <img
+                src="./images/svg/header-shopping-cart-icon.svg"
+                alt=""
+                class="header__options-shopping-cart-icon"
+                width="22"
+                height="23"
+              />
             </a>
+          </div>
         </div>
-    </header>
-    <!-- HEADER -->
-    <section class="discover">
+      </header>
+      <!-- HEADER -->
+      <section class="discover">
         <div class="container discover__wrapper">
-            <div class="discover__info-wrapper">
-                <h1 class="discover__info-title">Discover Most Suitable Watches</h1>
-                <p class="discover__info-text">Find the best, reliable, and cheap smart watches here. We focus on product quality. Here you can find smart watches of almost all brands. So why you are waiting? Just order now!</p>
-                <div class="discover__info-find">
-                    <div class="find-input">
-                        <img src="./images/svg/discover-search-icon.svg" alt="" class="find-icon">
-                        <input type="text" placeholder="Find the best brands">
-                        <a href="" class="discover__search-button">Search</a>
-                    </div>
-                </div>
+          <div class="discover__info-wrapper">
+            <h1 class="discover__info-title">Discover Most Suitable Watches</h1>
+            <p class="discover__info-text">
+              Find the best, reliable, and cheap smart watches here. We focus on
+              product quality. Here you can find smart watches of almost all
+              brands. So why you are waiting? Just order now!
+            </p>
+            <div class="discover__info-find">
+              <img
+                src="./images/svg/discover-search-icon.svg"
+                alt=""
+                class="find-icon"
+              />
+              <input type="text" placeholder="Find the best brands" />
+              <a href="" class="discover__search-button">Search</a>
             </div>
-            <div class="discover__info-img">
-                <img src="./images/discover.png" alt="watch">
-            </div>
+          </div>
+          <div class="discover__info-img">
+            <img src="./images/discover.png" alt="watch" />
+          </div>
         </div>
-    </section>
-</body>
+      </section>
+    </div>
+
+    <main class="main">
+      <section class="product">
+        <div class="container product__wrapper">
+          <div class="product__top">
+            <ul class="product__top-list">
+              <li class="product__top-item">
+                <img
+                  src="./images/product-apple.png"
+                  alt=""
+                  class="product__top-img-apple"
+                />
+                <div class="product__title-wrapper">
+                  <h4 class="product__top-title">Apple</h4>
+                  <p class="product__top-text">
+                    Apple is one of the most famous smart watches providing
+                    company.
+                  </p>
+                </div>
+              </li>
+              <li class="product__top-item">
+                <img
+                  src="./images/product-xiaomi.png"
+                  alt=""
+                  class="product__top-img-xiaomi"
+                />
+                <div class="product__title-wrapper">
+                  <h4 class="product__top-title">Xiaomi</h4>
+                  <p class="product__top-text">
+                    Xiaomi smart watches are produced by MI company.
+                  </p>
+                </div>
+              </li>
+              <li class="product__top-item">
+                <img
+                  src="./images/product-fitbit.png"
+                  alt=""
+                  class="product__top-img-fitbit"
+                />
+                <div class="product__title-wrapper">
+                  <h4 class="product__top-title">FitBit</h4>
+                  <p class="product__top-text">
+                    FitBit smart watches are best for there health and fitness
+                    features.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <a href="" class="product__info-link"
+            >Find your favourite smart watch.</a
+          >
+          <h1 class="product__info-title">Our Latest Products</h1>
+          <div class="product__bottom">
+            <ul class="product__bottom-list">
+              <li class="product__bottom-item">
+                <div class="product__bottom-item-bg">
+                  <div class="product__bottom-img-wrapper-apple-smart1">
+                    <a href="" class="product__bottom-korzinka-link"
+                      ><img
+                        src="./images/svg/korzinka-shopping-cart-icon.svg"
+                        alt=""
+                        class="product__bottom-korzinka-shopping-cart-icon"
+                    /></a>
+                    <a
+                      href="./images/svg/product-love-icon.svg"
+                      class="product__bottom-korzinka-link"
+                    >
+                      <img
+                        src="./images/svg/product-love-icon.svg"
+                        alt=""
+                        class="product__bottom-korzinka-love-icon"
+                    /></a>
+                  </div>
+                  <a href="" class="product-apple-smart1-link">
+                    <img
+                      src="./images/product-apple-samrt1.png"
+                      alt=""
+                      class="product__bottom-img"
+                    />
+                  </a>
+                </div>
+                <h4 class="product__bottom-list-title">Apple Smart I</h4>
+                <img
+                  src="./images/svg/product-star-icon.svg"
+                  alt=""
+                  class="star"
+                />
+                <p class="product__price"><span>$300.00</span>$255.00</p>
+              </li>
+              <li class="product__bottom-item">
+                <div class="product__bottom-item-bg">
+                  <div class="product__bottom-img-wrapper-apple-smart2">
+                    <a href="" class="product__bottom-korzinka-link"
+                      ><img
+                        src="./images/svg/korzinka-shopping-cart-icon.svg"
+                        alt=""
+                        class="product__bottom-korzinka-shopping-cart-icon"
+                    /></a>
+                    <a
+                      href="./images/svg/product-love-icon.svg"
+                      class="product__bottom-korzinka-link"
+                    >
+                      <img
+                        src="./images/svg/product-love-icon.svg"
+                        alt=""
+                        class="product__bottom-korzinka-love-icon"
+                    /></a>
+                  </div>
+                  <a href="" class="product-apple-smart2-link">
+                    <img
+                      src="./images/product-apple-samrt2.png"
+                      alt=""
+                      class="product__bottom-img"
+                    />
+                  </a>
+                </div>
+                <h4 class="product__bottom-list-title">Apple Smart II</h4>
+                <img
+                  src="./images/svg/product-star-icon.svg"
+                  alt=""
+                  class="star"
+                />
+                <p class="product__price"><span>$300.00</span> $255.00</p>
+              </li>
+              <li class="product__bottom-item">
+                <div class="product__bottom-item-bg">
+                  <div class="product__bottom-img-wrapper-apple-smart3">
+                    <a href="" class="product__bottom-korzinka-link"
+                      ><img
+                        src="./images/svg/korzinka-shopping-cart-icon.svg"
+                        alt=""
+                        class="product__bottom-korzinka-shopping-cart-icon"
+                    /></a>
+                    <a
+                      href="./images/svg/product-love-icon.svg"
+                      class="product__bottom-korzinka-link"
+                    >
+                      <img
+                        src="./images/svg/product-love-icon.svg"
+                        alt=""
+                        class="product__bottom-korzinka-love-icon"
+                    /></a>
+                  </div>
+                  <a href="" class="product-apple-smart3-link">
+                    <img
+                      src="./images/product-apple-samrt3.png"
+                      alt=""
+                      class="product__bottom-img"
+                    />
+                  </a>
+                </div>
+                <h4 class="product__bottom-list-title">Apple Smart III</h4>
+                <img
+                  src="./images/svg/product-star-icon.svg"
+                  alt=""
+                  class="star"
+                />
+                <p class="product__price"><span>$300.00</span> $255.00</p>
+              </li>
+            </ul>
+            <ul class="product__bottom-list">
+              <li class="product__bottom-item">
+                <div class="product__bottom-item-bg">
+                  <div class="product__bottom-img-wrapper-apple-smart4">
+                    <a href="" class="product__bottom-korzinka-link"
+                      ><img
+                        src="./images/svg/korzinka-shopping-cart-icon.svg"
+                        alt=""
+                        class="product__bottom-korzinka-shopping-cart-icon"
+                    /></a>
+                    <a
+                      href="./images/svg/product-love-icon.svg"
+                      class="product__bottom-korzinka-link"
+                    >
+                      <img
+                        src="./images/svg/product-love-icon.svg"
+                        alt=""
+                        class="product__bottom-korzinka-love-icon"
+                      />
+                    </a>
+                  </div>
+                  <a href="" class="apple-smart4-link">
+                    <img
+                      src="./images/product-apple-samrt4.png"
+                      alt=""
+                      class="product__bottom-img"
+                    />
+                  </a>
+                </div>
+                <h4 class="product__bottom-list-title">Apple Smart IV</h4>
+                <img
+                  src="./images/svg/product-star-icon.svg"
+                  alt=""
+                  class="star"
+                />
+                <p class="product__price"><span>$450.00</span>$399.00</p>
+              </li>
+              <li class="product__bottom-item">
+                <div class="product__bottom-item-bg">
+                  <div class="product__bottom-img-wrapper-samsung-pro">
+                    <a href="" class="product__bottom-korzinka-link"
+                      ><img
+                        src="./images/svg/korzinka-shopping-cart-icon.svg"
+                        alt=""
+                        class="product__bottom-korzinka-shopping-cart-icon"
+                    /></a>
+                    <a
+                      href="./images/svg/product-love-icon.svg"
+                      class="product__bottom-korzinka-link"
+                    >
+                      <img
+                        src="./images/svg/product-love-icon.svg"
+                        alt=""
+                        class="product__bottom-korzinka-love-icon"
+                    /></a>
+                  </div>
+                  <a href="" class="product-samsung-pro-link">
+                    <img
+                      src="./images/product-samsung-pro.png"
+                      alt=""
+                      class="product__bottom-img"
+                    />
+                  </a>
+                </div>
+                <h4 class="product__bottom-list-title">Samsung Watch Pro</h4>
+                <img
+                  src="./images/svg/product-star-icon.svg"
+                  alt=""
+                  class="star"
+                />
+                <p class="product__price"><span>$300.00</span>$255.00</p>
+              </li>
+              <li class="product__bottom-item">
+                <div class="product__bottom-item-bg">
+                  <div class="product__bottom-img-wrapper-fitbit-max1">
+                    <a href="" class="product__bottom-korzinka-link"
+                      ><img
+                        src="./images/svg/korzinka-shopping-cart-icon.svg"
+                        alt=""
+                        class="product__bottom-korzinka-shopping-cart-icon"
+                    /></a>
+                    <a
+                      href="./images/svg/product-love-icon.svg"
+                      class="product__bottom-korzinka-link"
+                    >
+                      <img
+                        src="./images/svg/product-love-icon.svg"
+                        alt=""
+                        class="product__bottom-korzinka-love-icon"
+                    /></a>
+                  </div>
+                  <a href="" class="product-fitbit-max1-link">
+                    <img
+                      src="./images/product-fitbit-max1.png"
+                      alt=""
+                      class="product__bottom-img"
+                    />
+                  </a>
+                </div>
+                <h4 class="product__bottom-list-title">Fitbit Max 1</h4>
+                <img
+                  src="./images/svg/product-star-icon.svg"
+                  alt=""
+                  class="star"
+                />
+                <p class="product__price"><span> </span>$155.00</p>
+              </li>
+            </ul>
+          </div>
+          <div class="product__btn">
+            <a href="" class="product__btn-link">View More</a>
+          </div>
+        </div>
+      </section>
+      <section class="about-us">
+        <div class="about-us__wrapper container"></div>
+      </section>
+    </main>
+  </body>
 </html>
